@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appunti di Hedi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Appunti di Hedi</h1>
+        <form id="note-form">
+            <textarea id="note-text" placeholder="Scrivi qui...." required></textarea>
+            <input type="file" id="file-input" accept="*/*">
+            <select id="category-select">
+                <option value="Inglese">Inglese</option>
+                <option value="Spagnolo">Spagnolo</option>
+                <option value="Italiano">Italiano</option>
+                <option value="Francese">Francese</option>
+            </select>
+            <button type="submit">Aggiungi Nota</button>
+        </form>
+        <div id="notes-container"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

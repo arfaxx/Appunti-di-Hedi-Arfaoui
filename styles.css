@@ -1,0 +1,109 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 10px;
+    resize: none;
+    height: 100px;
+}
+
+input[type="file"],
+select {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 10px;
+}
+
+button {
+    background-color: #6200ee;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+#notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.note {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-text {
+    flex-grow: 1;
+}
+
+.note-category {
+    margin-right: 10px;
+    font-style: italic;
+    color: #bb86fc;
+}
+
+.delete-btn,
+.edit-btn {
+    background-color: #d32f2f;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+    background-color: #9a0007;
+}
+
+.edit-btn {
+    background-color: #1976d2;
+}
+
+.edit-btn:hover {
+    background-color: #004ba0;
+}
+
+.attachment {
+    margin-top: 10px;
+    color: #bb86fc;
+}
